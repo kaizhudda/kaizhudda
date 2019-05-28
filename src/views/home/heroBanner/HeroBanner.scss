@@ -1,0 +1,28 @@
+@import '../../../styles/variables';
+@import '../../../styles/media-queries';
+
+.HeroBanner {
+  background: #222222;
+  color: white;
+  font-family: $font-body;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 32px 48px;
+
+  h1.title {
+    font-weight: 400;
+    font-size: 2.375rem;
+    margin-top: 1.25em;
+    margin-bottom: 2.5em;
+    line-height: 1.5;
+    // max-width: 840px;
+    text-align: left;
+  }
+
+  h4 {
+    font-size: 24px;
+    font-weight: 500;
+
+  }
+}
