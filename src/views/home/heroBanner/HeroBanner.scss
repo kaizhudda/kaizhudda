@@ -2,27 +2,35 @@
 @import '../../../styles/media-queries';
 
 .HeroBanner {
-  background: #222222;
+  background: #22a39f;
   color: white;
   font-family: $font-body;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 32px 48px;
+  padding: 16px;
+  height: 100vh;  
 
-  h1.title {
-    font-weight: 400;
-    font-size: 2.375rem;
-    margin-top: 1.25em;
-    margin-bottom: 2.5em;
-    line-height: 1.5;
-    // max-width: 840px;
-    text-align: left;
+  h1.name {
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    padding: 25px 100px;
+    border: 2px solid rgba(255, 255, 255, 0.35);
+
+    @include phone-only {
+      padding: 25px 50px;
+      font-size: 2rem;
+    }
   }
 
-  h4 {
-    font-size: 24px;
-    font-weight: 500;
+  h3.title {
+    font-weight: 300;
+    font-size: 1.75rem;
+    margin-top: 10px;
 
+    @include phone-only {
+      font-size: 1.25rem;
+    }
   }
 }

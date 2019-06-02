@@ -4,11 +4,8 @@ import './HeroBanner.scss';
 const HeroBanner = () => {
   return (
     <div className="HeroBanner row center-xs">
-      <div className="col-md-8">
-        <div className="col-lg-8 col-md-12">
-        <h1 className="title">I'm Kaiz Hudda, a front end developer living in Auckland, New Zealand, currently working for Spark NZ.</h1>
-        </div>
-      </div>
+        <h1 className="name">Kaiz Hudda</h1>
+        <h3 className="title">Front End Developer</h3>
     </div>
   );
 }
