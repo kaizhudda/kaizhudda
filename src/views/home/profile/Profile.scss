@@ -9,4 +9,63 @@
   align-items: center;
   flex-direction: column;
   padding: 16px;
+
+  .experience {
+    text-align: left;
+
+    .company {
+
+      h2 {
+        font-family: $font-body;
+        font-size: 1.275rem;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-weight: 700;
+      }
+
+      p {
+        font-family: $font-body;
+        font-size: 1rem;
+        margin-top: 0px;
+        font-weight: 500;
+      }
+    }
+    .desc {
+
+      h3 {
+        font-family: $font-body;
+        font-size: 1.125rem;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-weight: 700;
+      }
+
+      p {
+        line-height: 1.60;
+      }
+    }
+
+    .icons {
+      .fas {
+        color: #22a39f;
+        margin-right: 5px; 
+      }
+      .location {
+        margin-right: 10px;
+        font-family: $font-body;
+        font-size: 1rem;
+        color: #22a39f;
+      }
+      a {
+        color: #22a39f;
+        text-decoration: none;
+        font-family: $font-body;
+        font-size: 1rem;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }
