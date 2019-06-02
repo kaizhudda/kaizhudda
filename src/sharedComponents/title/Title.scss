@@ -1,0 +1,13 @@
+@import '../../styles/variables';
+@import '../../styles/media-queries';
+
+.Title {
+  font-family: $font-body;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 10px;
+
+  @include phone-only {
+    font-size: 2rem;
+  }
+}

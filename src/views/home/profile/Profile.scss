@@ -1,0 +1,12 @@
+@import '../../../styles/variables';
+@import '../../../styles/media-queries';
+
+.Profile {
+  background: #F3EFE0;
+  color: #727878;
+  font-family: $font-body;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+}

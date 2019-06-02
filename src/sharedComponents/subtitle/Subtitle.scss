@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+@import '../../styles/media-queries';
+
+.Subtitle {
+  font-weight: 300;
+  font-size: 1.375rem;
+  margin-top: 0px;
+
+  @include phone-only {
+    font-size: 1.125rem;
+  }
+}
