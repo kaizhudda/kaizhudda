@@ -2,6 +2,9 @@
 @import '../../../../styles/media-queries';
 
 .Experience {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: left;
   padding: 48px;
   background: white;
@@ -9,8 +12,6 @@
 
   @include phone-only {
     padding: 16px;
-    box-shadow: unset;
-    background: unset;
   }
 
   .company {
