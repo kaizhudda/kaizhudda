@@ -95,6 +95,7 @@
 
       @include phone-only {
         margin-bottom: 5px;
+        font-size: 0.925rem;
       }
     }
     a {
@@ -105,6 +106,10 @@
 
       &:hover {
         text-decoration: underline;
+      }
+
+      @include phone-only {
+        font-size: 0.925rem;
       }
     }
   }
