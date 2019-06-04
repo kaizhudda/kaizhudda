@@ -5,7 +5,7 @@ const HeroBanner = () => {
   return (
     <div className="HeroBanner row center-xs">
         <h1 className="name">Kaiz Hudda</h1>
-        <h3 className="title">Front End Developer</h3>
+        <h3 className="title">Front-End Developer</h3>
     </div>
   );
 }
