@@ -1,0 +1,20 @@
+@import '../../styles/variables';
+@import '../../styles/media-queries';
+
+.SecondaryTitle {
+  font-weight: 300;
+  font-size: 1.75em;
+  margin-top: 0px;
+  color: #22a39f;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 15px;
+
+  @include phone-only {
+    font-size: 1.25rem;
+  }
+
+  @include phablet-only {
+    font-size: 1.35rem;
+  }
+}

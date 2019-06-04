@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from '../../../sharedComponents/title';
 import Subtitle from '../../../sharedComponents/subtitle';
+import SecondaryTitle from '../../../sharedComponents/secondary-title';
 import Experience from './experience';
 import './Profile.scss';
 
@@ -9,6 +10,7 @@ const Profile = () => {
     <div className="Profile row center-xs">
       <Title>Work Experience</Title>
       <Subtitle>"I am a great believer in luck, and I find the harder I work the more I have of it." - Stephen Leacock</Subtitle>
+      <SecondaryTitle>Career</SecondaryTitle>
       <Experience
         title={'Front-End React Developer (Mid-Level)'}
         companyName={'Spark New Zealand'}
@@ -96,7 +98,7 @@ const Profile = () => {
           companyName={'Orion Health'}
           period={'November 2014 – February 2015 (4 months)'}
           location={'Auckland, New Zealand'}
-          companyLink={'https://orionhealth.co.nz'}
+          companyLink={'https://orionhealth.com'}
           skills={'HTML5, CSS3, Javascript, Cassandra (No SQL), Python3'}>
           •	Converted legacy web automation test scripts using Robot Framework, Selenium & Python
           <br />
@@ -106,6 +108,17 @@ const Profile = () => {
           <br />
           •	Customised Jenkins to run and view test results of the latest deployment automatically
         </Experience>
+
+        <SecondaryTitle>Education</SecondaryTitle>
+        <Experience
+          title={'BSc Computer Science & Information Systems'}
+          companyName={'University of Auckland'}
+          period={'2014 – 2017'}
+          location={'Auckland, New Zealand'}
+          companyLink={'https://auckland.ac.nz'}
+          education>
+        </Experience>
+
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Experience.scss';
 
-const Experience = ({ children, title, companyName, period, location, companyLink, skills }) => {
+const Experience = ({ children, title, companyName, period, location, companyLink, skills, education }) => {
   return (
     <div className="Experience col-xl-5 col-lg-6 col-md-9 col-xs-12">
       <div className="company">
@@ -13,11 +13,15 @@ const Experience = ({ children, title, companyName, period, location, companyLin
       <div className="desc">
         <p className="about">
           {children}
-      </p>
-      <p className="skills">
-        <strong>Key Technologies: </strong> 
-        {skills}
-      </p>
+        </p>
+        {
+          !education &&
+          <p className="skills">
+            <strong>Key Technologies: </strong>
+            {skills}
+          </p>
+        }
+
         <div className="icons">
           <span className="location"><i className="fas fa-map-marker-alt" />{location}</span>
           <a href={`${companyLink}`}> <i className="fas fa-link"></i>{companyLink}</a>
