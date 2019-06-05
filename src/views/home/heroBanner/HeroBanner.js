@@ -11,7 +11,7 @@ const HeroBanner = () => {
         params={{
           "particles": {
             "number": {
-              "value": 100
+              "value": 50
             },
             "size": {
               "value": 3
