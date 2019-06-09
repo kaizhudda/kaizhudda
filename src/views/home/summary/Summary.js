@@ -42,7 +42,12 @@ class Summary extends Component {
               this.state.posts[0].fields.description
             }
             <br /> <br />
-            <i className="fa fa-map-marker-alt" /> <span className="location">Auckland, New Zealand</span>
+            <i className="fa fa-map-marker-alt" /> <span className="location">
+              {
+                this.state.posts[0] &&
+                this.state.posts[0].fields.location
+              }
+            </span>
           </p>
         </div>
       </div>
