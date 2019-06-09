@@ -14,7 +14,7 @@ class Summary extends Component {
   client = contentful.createClient({
     space: 'yzc3im4v4u3u',
     accessToken: process.env.REACT_APP_CONTENTFUL_ACCESS_TOKEN,
-    environment: process.env.NODE_ENV !== 'production' ? 'development' : 'master'
+    environment: process.env.REACT_APP_CONTENTFUL_ENVIRONMENT
   })
 
   componentDidMount() {
