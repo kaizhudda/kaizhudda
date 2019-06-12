@@ -15,7 +15,6 @@ export default function reducer(state = [], action) {
 export const fetchSummary = () => async dispatch => {
   client.getEntries({ 'content_type': 'summary' })
     .then((response) => {
-      console.log('RESPONSE', response);
       dispatch({
         type: FETCH_SUMMARY_DATA,
         payload: response.items
