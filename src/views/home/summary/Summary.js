@@ -33,6 +33,11 @@ const Summary = ({ fetchSummary, summaryData }) => {
             }
           </span>
         </p>
+        <p>
+          <i className="fab fa-linkedin" />
+          <i className="fab fa-github-square" />
+          <i className="fab fa-twitter-square" />
+        </p>
       </div>
     </div>
   );
