@@ -1,5 +1,6 @@
 import React from 'react';
-import Home from '../views/home';
+import Routes from '../Router';
+import Header from './header';
 
 import './App.scss';
 
@@ -7,7 +8,8 @@ const App = () => {
   return (
     <div className="App row center-xs">
       <div className="col-xs-12">
-        <Home />
+        <Header />
+        <Routes />
       </div>
     </div>
   );
