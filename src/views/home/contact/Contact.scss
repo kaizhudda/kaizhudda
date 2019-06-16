@@ -2,20 +2,22 @@
 @import '../../../styles/media-queries';
 
 .Contact {
-  background: #F3EFE0;
+  background: #22a39f;
   color: #727878;
   font-family: $font-body;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 16px 16px 48px 16px;
+  color: white;
+
+  .title {
+    color: white;
+  }
 
   .profile-content {
     display: flex;
     flex-direction: column;
-    background-color: white;
-    width: 550px;
-    padding: 30px;
 
     p {
       margin: 10px 0;
@@ -24,17 +26,6 @@
     .email {
       width: 100%;
       font-size: 1.25rem;
-    }
-
-    
-    .fab {
-      // color: #22a39f;
-      font-size: 2rem;
-      margin-right: 15px;
-
-      &:hover {
-        color: #22a39f;
-      }
     }
 
   }

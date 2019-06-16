@@ -2,9 +2,9 @@ import React from 'react';
 
 import './Title.scss';
 
-const Title = ({ children }) => {
+const Title = ({ children, className }) => {
   return (
-    <h1 className="Title">
+    <h1 className={`Title ${className ? className : ''}`}>
       {children}
     </h1>
   );
