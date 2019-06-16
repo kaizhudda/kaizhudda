@@ -7,7 +7,7 @@ import './Profile.scss';
 
 const Profile = () => {
   return (
-    <div className="Profile row center-xs">
+    <div className="Profile row center-xs" id="experience-section">
       <Title>Work Experience</Title>
       <Subtitle>"I am a great believer in luck, and I find the harder I work the more I have of it." - Stephen Leacock</Subtitle>
       <SecondaryTitle>Career</SecondaryTitle>

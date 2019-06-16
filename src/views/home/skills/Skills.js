@@ -7,7 +7,7 @@ import './Skills.scss';
 
 const Skills = () => {
   return (
-    <div className="Skills row center-xs">
+    <div className="Skills row center-xs" id="skills-section">
       <Title>Skills</Title>
       <Subtitle>Still trying to think of a Subtitle here</Subtitle>
       <Skill skills={feSkills} category="Front-End" />

@@ -10,7 +10,7 @@ const Summary = ({ fetchSummary, summaryData }) => {
   }, [fetchSummary])
 
   return (
-    <div className="Summary row center-xs">
+    <div className="Summary row center-xs" id="summary-section">
       <Title>Profile</Title>
       <Subtitle>
         {
@@ -33,7 +33,7 @@ const Summary = ({ fetchSummary, summaryData }) => {
             }
           </span>
         </p>
-        <button type="button" className="btn btn-primary">Sup</button>
+        <button type="button" className="button">Download Resume</button>
       </div>
     </div>
   );

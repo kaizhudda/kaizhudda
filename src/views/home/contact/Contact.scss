@@ -26,6 +26,10 @@
     .email {
       width: 100%;
       font-size: 1.25rem;
+
+      @include phone-only {
+        font-size: 1.125rem;
+      }
     }
 
   }
