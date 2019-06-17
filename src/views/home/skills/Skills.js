@@ -1,6 +1,5 @@
 import React from 'react';
 import Title from '../../../sharedComponents/title';
-import Subtitle from '../../../sharedComponents/subtitle';
 import Skill from './skill';
 
 import './Skills.scss';
@@ -9,7 +8,6 @@ const Skills = () => {
   return (
     <div className="Skills row center-xs" id="skills-section">
       <Title>Skills</Title>
-      {/* <Subtitle>Still trying to think of a Subtitle here</Subtitle> */}
       <Skill skills={feSkills} category="Front-End" />
       <Skill skills={beSkills} category="Back-End" />
       <Skill skills={otherSkills} category="CI/CD and other" />
