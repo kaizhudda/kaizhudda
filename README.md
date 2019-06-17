@@ -2,7 +2,7 @@
 
 ### Overview
 
-Here you will find the source files for my very own Digital Resume website - [kaizhudda.com](kaizhudda.com)
+Here you will find the source files for my very own Digital Resume website - [kaizhudda.com](https://kaizhudda.com)
 
 ### Stack
 
