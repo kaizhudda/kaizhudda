@@ -9,7 +9,7 @@ const Skills = () => {
   return (
     <div className="Skills row center-xs" id="skills-section">
       <Title>Skills</Title>
-      <Subtitle>Still trying to think of a Subtitle here</Subtitle>
+      {/* <Subtitle>Still trying to think of a Subtitle here</Subtitle> */}
       <Skill skills={feSkills} category="Front-End" />
       <Skill skills={beSkills} category="Back-End" />
       <Skill skills={otherSkills} category="CI/CD and other" />
@@ -58,6 +58,10 @@ const beSkills = [
   {
     name: "C#/.NET",
     experience: "2+ years"
+  }, 
+  {
+    name: "Java",
+    experience: "1 year"
   }, 
   {
     name: "SQL Server",

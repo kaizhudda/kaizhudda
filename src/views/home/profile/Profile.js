@@ -30,7 +30,7 @@ const Profile = () => {
        <br />
         •	Worked with AEM developers to seamlessly integrate React.js and add content authoring across journey’s
         <br />
-        •	Mentored 3 junior and 2 graduate developers / Pair programming
+        •	Mentored developers / Pair programming
         <br />
         •	Managed 2 weekly sprints for the frontend team with Azure DevOps
         </Experience>

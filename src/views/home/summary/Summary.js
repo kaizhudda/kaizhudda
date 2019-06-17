@@ -33,7 +33,7 @@ const Summary = ({ fetchSummary, summaryData }) => {
             }
           </span>
         </p>
-        <button type="button" className="button">Download Resume</button>
+        {/* <button type="button" className="button">Download Resume</button> */}
       </div>
     </div>
   );

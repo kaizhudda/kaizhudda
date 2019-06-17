@@ -1,6 +1,6 @@
 import React from 'react';
 // import { HashLink as Link } from 'react-router-hash-link';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 import './Header.scss';
 
