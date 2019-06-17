@@ -1,24 +1,47 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import Title from './index';
+import Social from './index';
 
 let wrapped;
-const title = 'Test Title';
+const props = {
+  className: 'TitleClass'
+};
 
 beforeEach(() => {
-  wrapped = mount(<Title>{title}</Title>);
+  wrapped = mount(<Social {...props} />);
 });
 
 afterEach(() => {
   wrapped.unmount();
 });
 
-describe('Title', () => {
-  it('renders the Title Component', () => {
+describe('Social', () => {
+  it('renders the Social Component', () => {
     expect(wrapped.exists()).toBe(true);
   });
 
-  it('renders the Titles children', () => {
-    expect(wrapped.find('h1').text()).toEqual(title);
+  it('renders the p tag that holds the social media icons', () => {
+    expect(wrapped.find('p').hasClass(props.className)).toBe(true);
   });
+
+  it('renders 3 <a> tags', () => {
+    expect(wrapped.find('a').length).toEqual(3);
+  });
+
+});
+
+describe('Social', () => {
+  let comp;
+  beforeEach(() => {
+    comp = mount(<Social />);
+  });
+  
+  afterEach(() => {
+    comp.unmount();
+  });
+
+  it('renders no className when none is given', () => {
+    expect(comp.find('p').hasClass(props.className)).toBe(false);
+  });
+
 });
