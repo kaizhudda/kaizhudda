@@ -11,7 +11,8 @@ Here you will find the source files for my very own Digital Resume website - [ka
 
 Created with: 
 * React.js 
-* Redux 
+* Redux
+* Redux Thunk
 * HTML5 
 * SCSS 
 * Jest/Enzyme
