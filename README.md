@@ -1,14 +1,12 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
 
-## kaizhudda.com
+# kaizhudda-digital-resume
 
-### Overview
-
+## Overview
 Here you will find the source files for my very own Digital Resume website - [kaizhudda.com](https://kaizhudda.com)
 
-### Stack
-
+## Stack
 Created with: 
 * React.js 
 * Redux
@@ -19,14 +17,29 @@ Created with:
 * Contentful (Headless CMS)
 * Netlify (CI/CD pipelines)
 
-### Run
+## Install dependencies
 
-```yarn start```
+``` bash
+yarn # or npm install
+```
 
-### Build
+## Run
 
-```yarn build```
+``` bash
+yarn start # or npm start
+```
 
-### Test
+## Build
 
-```yarn test-coverage```
+``` bash
+yarn build # or npm run build
+```
+
+## Test
+
+``` bash
+yarn test-coverage # npm run test-coverage
+```
+
+## License
+MIT
