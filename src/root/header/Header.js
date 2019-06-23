@@ -16,7 +16,7 @@ const Header = () => {
                 to="summary-section"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-50}
                 duration= {500}>
                   Profile
                 </Link>
@@ -26,7 +26,7 @@ const Header = () => {
                 to="experience-section"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-50}
                 duration= {500}>
                   Experience
                 </Link>
@@ -36,7 +36,7 @@ const Header = () => {
                 to="skills-section"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-50}
                 duration= {500}>
                   Skills
                 </Link>
@@ -46,7 +46,7 @@ const Header = () => {
                 to="contact-section"
                 spy={true}
                 smooth={true}
-                offset={0}
+                offset={-50}
                 duration= {500}>
                   Contact
                 </Link>
