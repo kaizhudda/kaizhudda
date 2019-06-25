@@ -11,6 +11,7 @@ Created with:
 * React.js 
 * Redux
 * Redux Thunk
+* Reselect (Selectors)
 * HTML5 
 * SCSS 
 * Jest/Enzyme
