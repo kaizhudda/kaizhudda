@@ -2,18 +2,13 @@
 @import '../../../styles/media-queries';
 
 .Contact {
-  background: #22a39f;
+  background: #F3EFE0;
   color: #727878;
   font-family: $font-body;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 16px 16px 48px 16px;
-  color: white;
-
-  .title {
-    color: white;
-  }
 
   .profile-content {
     display: flex;

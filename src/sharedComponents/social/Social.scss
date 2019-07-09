@@ -9,10 +9,11 @@
     // color: #22a39f;
     font-size: 2rem;
     margin-right: 15px;
-    color: white;
+    color: #727878;
+    transition: ease-in-out 0.15s;
 
     &:hover {
-      color: #efefef;
+      color: #22a39f;
     }
   }
 }
