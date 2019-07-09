@@ -28,15 +28,15 @@ const feSkills = [
   }, 
   {
     name: "JavaScript/ES6",
-    experience: "6+ years"
+    experience: "5+ years"
   }, 
   {
     name: "HTML5",
-    experience: "10+ years"
+    experience: "5+ years"
   }, 
   {
     name: "CSS3",
-    experience: "8+ years"
+    experience: "5+ years"
   }, 
   {
     name: "SASS",
@@ -44,14 +44,14 @@ const feSkills = [
   },
   {
     name: "Jest/Enzyme",
-    experience: "2+ years"
+    experience: "3+ years"
   }
 ];
 
 const beSkills = [
   {
     name: "Node.js",
-    experience: "3+ years"
+    experience: "2+ years"
   },
   {
     name: "C#/.NET",
@@ -90,6 +90,6 @@ const otherSkills = [
   },
   {
     name: "Git",
-    experience: "6+ years"
+    experience: "5+ years"
   }
 ];

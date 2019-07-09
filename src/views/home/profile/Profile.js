@@ -17,7 +17,7 @@ const Profile = () => {
         period={'February 2019 - Present'}
         location={'Auckland, New Zealand'}
         companyLink={'https://spark.co.nz'}
-        skills={'React, Redux, ES6/7 JavaScript, HTML5, CSS3/SCSS, Node.js, Jest, Enzyme, Styled components, Git, Azure DevOps'}>
+        skills={'React, Redux, ES6/7 JavaScript, Webpack 4, HTML5, CSS3/SCSS, Node.js, Jest, Enzyme, Styled components, Git, Azure DevOps'}>
         •	Developed and maintained 5 different customer facing web journeys on Sparks corporate website
         <br />
         •	Built out Spark’s reusable React component library which heavily reduced code duplication
