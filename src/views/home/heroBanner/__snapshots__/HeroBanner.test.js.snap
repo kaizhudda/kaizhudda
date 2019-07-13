@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeroBanner should render the HeroBanner Component correctly 1`] = `
+<div
+  className="HeroBanner row center-xs"
+>
+  <e
+    className="particles"
+    height="100%"
+    params={
+      Object {
+        "interactivity": Object {
+          "events": Object {
+            "onhover": Object {
+              "enable": true,
+              "mode": "repulse",
+            },
+          },
+        },
+        "particles": Object {
+          "number": Object {
+            "value": 25,
+          },
+          "size": Object {
+            "value": 3,
+          },
+        },
+      }
+    }
+    style={Object {}}
+    width="100%"
+  />
+  <div
+    className="content"
+  >
+    <h1
+      className="name"
+    >
+      Kaiz Hudda
+    </h1>
+    <h3
+      className="title"
+    >
+      Front-End Developer
+    </h3>
+  </div>
+</div>
+`;
