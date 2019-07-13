@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skill should render the Skill Component correctly 1`] = `
+<div
+  className="Skills-content col-xs-12"
+>
+  <SecondaryTitle>
+    Test
+  </SecondaryTitle>
+  <div
+    className="skill"
+    key="0"
+  >
+    <div
+      className="skill-title"
+    >
+      React
+    </div>
+    <div
+      className="skill-score"
+    >
+      3+ years
+    </div>
+  </div>
+  <div
+    className="skill"
+    key="1"
+  >
+    <div
+      className="skill-title"
+    >
+      Redux
+    </div>
+    <div
+      className="skill-score"
+    >
+      3+ years
+    </div>
+  </div>
+</div>
+`;

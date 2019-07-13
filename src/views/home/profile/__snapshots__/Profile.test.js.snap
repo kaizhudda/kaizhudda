@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile should render the Profile Component correctly 1`] = `
+<div
+  className="Profile row center-xs"
+  id="experience-section"
+>
+  <Title>
+    Work Experience
+  </Title>
+  <Subtitle>
+    "I am a great believer in luck, and I find the harder I work the more I have of it." - Stephen Leacock
+  </Subtitle>
+  <SecondaryTitle>
+    Career
+  </SecondaryTitle>
+  <Experience
+    companyLink="https://spark.co.nz"
+    companyName="Spark New Zealand"
+    location="Auckland, New Zealand"
+    period="February 2019 - Present"
+    skills="React, Redux, ES6/7 JavaScript, Webpack 4, HTML5, CSS3/SCSS, Node.js, Jest, Enzyme, Styled components, Git, Azure DevOps"
+    title="Front-End React Developer (Mid-Level)"
+  >
+    • Developed and maintained 5 different customer facing web journeys on Sparks corporate website
+    <br />
+    • Built out Spark’s reusable React component library which heavily reduced code duplication
+    <br />
+    • Wrote and refactored unit tests to improve the reliability of the code base, using Jest and Enzyme
+    <br />
+    • Defined and implemented best practices and coding standards for the organization to deliver high quality code
+    <br />
+    • Worked closely with UI/UX designers to ensure design is translated correctly
+    <br />
+    • Worked with AEM developers to seamlessly integrate React.js and add content authoring across journey’s
+    <br />
+    • Mentored developers / Pair programming
+    <br />
+    • Managed 2 weekly sprints for the frontend team with Azure DevOps
+  </Experience>
+  <Experience
+    companyLink="https://genesisenergy.co.nz"
+    companyName="Genesis Energy"
+    location="Auckland, New Zealand"
+    period="March 2017 – February 2019 (2 years)"
+    skills="React, Redux, ES6/7 JavaScript, HTML5, CSS3/SCSS, Jest, Enzyme, Node.js, Git, Azure DevOps"
+    title="Front End Developer"
+  >
+    • Developed & maintained the Energy Management and Customer Self-Service web app from scratch using React, Redux, HTML5, CSS3/SASS, and JavaScript ES6
+    <br />
+    • Code reviewed other developers code to ensure code quality and standards are met
+    <br />
+    • Created/maintained test scripts with Jest and Enzyme reducing future defects and bugs
+    <br />
+    • Worked closely with UI/UX designers to ensure design is translated correctly
+    <br />
+    • Worked with Node.js/Express.js/MongoDB backend with Docker microservices to support the Front End
+    <br />
+    • Contributed to development of APIs, including, electricity/LPG/natural gas usage data and user data
+    <br />
+    • Tracked and managed 2 weekly sprints with JIRA
+  </Experience>
+  <Experience
+    companyLink="https://genesisenergy.co.nz"
+    companyName="Genesis Energy"
+    location="Auckland, New Zealand"
+    period="December 2016 – February 2017 (3 months)"
+    skills="HTML5, CSS/SCSS, C#, Visual Studio, JavaScript, VSTS, SQL, Azure"
+    title="Microsoft Intern"
+  >
+    • Developed an energy monitoring and management dashboard prototype, using HTML5, CSS3, JavaScript, C#, Visual Studio and Bootstrap
+    <br />
+    • Developed an LPG monitoring prototype using Visual Studio in 3 days, saving the company $25K
+    <br />
+    • Integrated .NET C# JSON APIs with the Front End
+    <br />
+    • Continuously deployed web projects using Microsoft Azure
+    <br />
+    • Wrote web automation test scripts in C# and conducted cross browser testing
+    <br />
+    • Extracted information from SQL database, to build managerial reports on key user metrics
+  </Experience>
+  <Experience
+    companyLink="https://fostermoore.co.nz"
+    companyName="Foster Moore"
+    location="Auckland, New Zealand"
+    period="November 2015 – February 2016 (4 months)"
+    skills="Selenium, RobotFramework, Python, Jenkins"
+    title="Test Analyst Intern"
+  >
+    • Converted legacy web automation test scripts using Robot Framework, Selenium & Python
+    <br />
+    • Troubleshooted and optimised automation web tests and CI/CD pipelines
+    <br />
+    • Continuously deployed test scripts with Jenkins
+    <br />
+    • Customised Jenkins to run and view test results of the latest deployment automatically
+  </Experience>
+  <Experience
+    companyLink="https://orionhealth.com"
+    companyName="Orion Health"
+    location="Auckland, New Zealand"
+    period="November 2014 – February 2015 (4 months)"
+    skills="HTML5, CSS3, Javascript, Cassandra (No SQL), Python3"
+    title="Software Engineer Intern"
+  >
+    • Converted legacy web automation test scripts using Robot Framework, Selenium & Python
+    <br />
+    • Troubleshooted and optimised automation web tests and CI/CD pipelines
+    <br />
+    • Continuously deployed test scripts with Jenkins
+    <br />
+    • Customised Jenkins to run and view test results of the latest deployment automatically
+  </Experience>
+  <SecondaryTitle>
+    Education
+  </SecondaryTitle>
+  <Experience
+    companyLink="https://auckland.ac.nz"
+    companyName="University of Auckland"
+    education={true}
+    location="Auckland, New Zealand"
+    period="2014 – 2017"
+    title="BSc Computer Science & Information Systems"
+  />
+</div>
+`;
