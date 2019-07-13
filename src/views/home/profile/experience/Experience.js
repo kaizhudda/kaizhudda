@@ -24,7 +24,7 @@ const Experience = ({ children, title, companyName, period, location, companyLin
 
         <div className="icons">
           <span className="location"><i className="fas fa-map-marker-alt" />{location}</span>
-          <a href={`${companyLink}`}> <i className="fas fa-link"></i>{companyLink}</a>
+          <a href={`${companyLink}`}><i className="fas fa-link"></i>{companyLink}</a>
         </div>
       </div>
     </div>

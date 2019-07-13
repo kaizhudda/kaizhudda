@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Experience should render the Experience Component correctly 1`] = `
+<div
+  className="Experience col-xl-5 col-lg-6 col-md-9 col-xs-12"
+>
+  <div
+    className="company"
+  >
+    <h2>
+      Test Title
+    </h2>
+    <h3>
+      Test Company
+    </h3>
+    <p>
+      <i
+        className="far fa-clock"
+      />
+      Feb - Present
+    </p>
+  </div>
+  <div
+    className="desc"
+  >
+    <p
+      className="about"
+    >
+      Test Bullet points
+    </p>
+    <p
+      className="skills"
+    >
+      <strong>
+        Key Technologies: 
+      </strong>
+      Jest, Enzyme
+    </p>
+    <div
+      className="icons"
+    >
+      <span
+        className="location"
+      >
+        <i
+          className="fas fa-map-marker-alt"
+        />
+        Auckland, NZ
+      </span>
+      <a
+        href="Link.com"
+      >
+        <i
+          className="fas fa-link"
+        />
+        Link.com
+      </a>
+    </div>
+  </div>
+</div>
+`;
