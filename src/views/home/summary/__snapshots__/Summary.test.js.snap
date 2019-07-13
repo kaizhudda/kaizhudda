@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Summary should render the Summary Component correctly 1`] = `
+<Summary
+  fetchSummary={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  summaryData={
+    Object {
+      "fields": Object {
+        "description": "desc",
+        "location": "location",
+        "subtitle": "subtitle",
+      },
+    }
+  }
+>
+  <div
+    className="Summary row center-xs"
+    id="summary-section"
+  >
+    <Title>
+      <h1
+        className="Title "
+      >
+        Profile
+      </h1>
+    </Title>
+    <Subtitle>
+      <h3
+        className="Subtitle"
+      >
+        subtitle
+      </h3>
+    </Subtitle>
+    <div
+      className="profile-content col-xl-5 col-lg-6 col-md-9 col-sm-11 col-xs-12"
+    >
+      <div
+        className="picture"
+      />
+      <p
+        className="description"
+      >
+        desc
+        <br />
+         
+        <br />
+        <i
+          className="fa fa-map-marker-alt"
+        />
+         
+        <span
+          className="location"
+        >
+          location
+        </span>
+      </p>
+    </div>
+  </div>
+</Summary>
+`;

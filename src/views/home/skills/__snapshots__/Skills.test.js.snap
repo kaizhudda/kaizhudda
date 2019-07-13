@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skills should render the Skills Component correctly 1`] = `
+<div
+  className="Skills row center-xs"
+  id="skills-section"
+>
+  <Title>
+    Skills
+  </Title>
+  <Skill
+    category="Front-End"
+    skills={
+      Array [
+        Object {
+          "experience": "3+ years",
+          "name": "React",
+        },
+        Object {
+          "experience": "3+ years",
+          "name": "Redux",
+        },
+        Object {
+          "experience": "5+ years",
+          "name": "JavaScript/ES6",
+        },
+        Object {
+          "experience": "5+ years",
+          "name": "HTML5",
+        },
+        Object {
+          "experience": "5+ years",
+          "name": "CSS3",
+        },
+        Object {
+          "experience": "3+ years",
+          "name": "SASS",
+        },
+        Object {
+          "experience": "3+ years",
+          "name": "Jest/Enzyme",
+        },
+      ]
+    }
+  />
+  <Skill
+    category="Back-End"
+    skills={
+      Array [
+        Object {
+          "experience": "2+ years",
+          "name": "Node.js",
+        },
+        Object {
+          "experience": "2+ years",
+          "name": "C#/.NET",
+        },
+        Object {
+          "experience": "1 year",
+          "name": "Java",
+        },
+        Object {
+          "experience": "2+ years",
+          "name": "SQL Server",
+        },
+        Object {
+          "experience": "1+ years",
+          "name": "MongoDB",
+        },
+        Object {
+          "experience": "1+ years",
+          "name": "Express.js",
+        },
+      ]
+    }
+  />
+  <Skill
+    category="CI/CD and other"
+    skills={
+      Array [
+        Object {
+          "experience": "2+ years",
+          "name": "Microsoft Azure",
+        },
+        Object {
+          "experience": "1+ years",
+          "name": "Docker",
+        },
+        Object {
+          "experience": "1 year",
+          "name": "Jenkins",
+        },
+        Object {
+          "experience": "5+ years",
+          "name": "Git",
+        },
+      ]
+    }
+  />
+</div>
+`;
