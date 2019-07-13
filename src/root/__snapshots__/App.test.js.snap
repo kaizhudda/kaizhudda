@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render the App Component correctly 1`] = `
+<div
+  className="App row center-xs"
+>
+  <HelmetWrapper
+    defer={true}
+    encodeSpecialCharacters={true}
+  >
+    <title>
+      Kaiz Hudda - Front End React Developer - Digital Resume
+    </title>
+    <meta
+      content="Hi, I'm Kaiz Hudda, a versatile Front-End React Developer with 3+ years of experience leveraging React, Redux and JavaScript to build commercial web-based applications. Focused on engineering user centric solutions for achieving greater customer satisfaction. Thrive in working in a collaborative agile environment to deliver high quality products."
+      name="description"
+    />
+  </HelmetWrapper>
+  <div
+    className="col-xs-12"
+  >
+    <Header />
+    <Routes />
+  </div>
+</div>
+`;

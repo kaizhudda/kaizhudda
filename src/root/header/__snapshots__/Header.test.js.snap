@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render the Header Component correctly 1`] = `
+<div
+  className="row"
+>
+  <div
+    className="nav"
+  >
+    <header
+      className="header"
+    >
+      <ul
+        className="main-nav"
+      >
+        <li>
+          <Link
+            duration={500}
+            offset={-50}
+            smooth={true}
+            spy={true}
+            to="summary-section"
+          >
+            Profile
+          </Link>
+        </li>
+        <li>
+          <Link
+            duration={500}
+            offset={-50}
+            smooth={true}
+            spy={true}
+            to="experience-section"
+          >
+            Experience
+          </Link>
+        </li>
+        <li>
+          <Link
+            duration={500}
+            offset={-50}
+            smooth={true}
+            spy={true}
+            to="skills-section"
+          >
+            Skills
+          </Link>
+        </li>
+        <li>
+          <Link
+            duration={500}
+            offset={-50}
+            smooth={true}
+            spy={true}
+            to="contact-section"
+          >
+            Contact
+          </Link>
+        </li>
+      </ul>
+    </header>
+  </div>
+</div>
+`;
