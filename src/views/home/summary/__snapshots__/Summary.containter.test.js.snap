@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Summary should render the Summary Container Component correctly 1`] = `
+<Connect(Summary)
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+  summaryData={
+    Object {
+      "fields": Object {
+        "description": "desc",
+        "location": "local",
+        "subtitle": "sub",
+      },
+    }
+  }
+>
+  <Summary
+    fetchSummary={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+    summaryData={
+      Object {
+        "fields": Object {
+          "description": "",
+          "location": "",
+          "subtitle": "",
+        },
+      }
+    }
+  >
+    <div
+      className="Summary row center-xs"
+      id="summary-section"
+    >
+      <Title>
+        <h1
+          className="Title "
+        >
+          Profile
+        </h1>
+      </Title>
+      <Subtitle>
+        <h3
+          className="Subtitle"
+        />
+      </Subtitle>
+      <div
+        className="profile-content col-xl-5 col-lg-6 col-md-9 col-sm-11 col-xs-12"
+      >
+        <div
+          className="picture"
+        />
+        <p
+          className="description"
+        >
+          <br />
+           
+          <br />
+          <i
+            className="fa fa-map-marker-alt"
+          />
+           
+          <span
+            className="location"
+          />
+        </p>
+      </div>
+    </div>
+  </Summary>
+</Connect(Summary)>
+`;
