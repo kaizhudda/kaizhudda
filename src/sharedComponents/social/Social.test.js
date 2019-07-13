@@ -17,7 +17,7 @@ afterEach(() => {
 
 describe('Social', () => {
   it('renders the Social Component', () => {
-    expect(wrapped.exists()).toBe(true);
+    expect(wrapped).toMatchSnapshot();
   });
 
   it('renders the p tag that holds the social media icons', () => {
@@ -30,7 +30,7 @@ describe('Social', () => {
 
 });
 
-describe('Social', () => {
+describe('Social with no className', () => {
   let comp;
   beforeEach(() => {
     comp = mount(<Social />);

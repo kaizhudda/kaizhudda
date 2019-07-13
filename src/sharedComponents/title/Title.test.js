@@ -1,24 +1,16 @@
 import React from 'react';
-import { mount } from 'enzyme';
+import { shallow } from 'enzyme';
 import Title from './index';
 
-let wrapped;
 const title = 'Test Title';
 const props = {
   className: 'title'
 };
-
-beforeEach(() => {
-  wrapped = mount(<Title {...props}>{title}</Title>);
-});
-
-afterEach(() => {
-  wrapped.unmount();
-});
+let wrapped = shallow(<Title {...props}>{title}</Title>); 
 
 describe('Title', () => {
-  it('renders the Title Component', () => {
-    expect(wrapped.exists()).toBe(true);
+  it('should render the Title Component correctly', () => {
+    expect(wrapped).toMatchSnapshot();
   });
 
   it('renders the Titles children', () => {
@@ -31,17 +23,11 @@ describe('Title', () => {
 });
 
 describe('Title with no ClassName', () => {
-  let comp;
   beforeEach(() => {
-    comp = mount(<Title>{title}</Title>);
+    wrapped = shallow(<Title>{title}</Title>);
   });
-  
-  afterEach(() => {
-    comp.unmount();
-  });
-  
 
   it('renders the Class Name on Title Component', () => {
-    expect(comp.find('h1').hasClass(props.className)).toBe(false)
+    expect(wrapped.find('h1').hasClass(props.className)).toBe(false)
   });
 });

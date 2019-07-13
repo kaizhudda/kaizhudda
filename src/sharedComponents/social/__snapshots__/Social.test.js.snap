@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Social renders the Social Component 1`] = `
+<Social
+  className="TitleClass"
+>
+  <p
+    className="Social TitleClass"
+  >
+    <a
+      href="https://linkedin.com/in/kaizhudda"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-linkedin"
+      />
+    </a>
+    <a
+      href="https://github.com/kaizhudda"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-github-square"
+      />
+    </a>
+    <a
+      href="https://twitter.com/kaizhudda"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <i
+        className="fab fa-twitter-square"
+      />
+    </a>
+  </p>
+</Social>
+`;
