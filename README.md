@@ -1,7 +1,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
 
-# kaizhudda-digital-resume
+# Kaiz Hudda - Digital Resume
 
 ## Overview
 Here you will find the source files for my very own Digital Resume website - [kaizhudda.com](https://kaizhudda.com)
