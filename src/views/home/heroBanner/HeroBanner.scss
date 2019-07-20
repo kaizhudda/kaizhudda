@@ -9,7 +9,7 @@
   align-items: center;
   flex-direction: column;
   padding: 16px;
-  height: 100vh;  
+  height: 100vh;
   position: relative;
   min-height: 400px;
 
@@ -31,24 +31,60 @@
       margin-bottom: 10px;
       padding: 25px 100px;
       border: 2px solid rgba(255, 255, 255, 0.35);
-  
+      animation: moveInLeft 1s ease-out;
+
       @include phone-only {
         padding: 25px 50px;
         font-size: 2rem;
       }
     }
-  
+
     h3.title {
       font-family: $font-code;
       font-weight: 300;
       font-size: 1.75rem;
       margin-top: 15px;
-  
+      animation: moveInRight 1s ease-out;
+
+      // animation-iteration-count: 3;
+      animation-timing-function: ease-out;
+      // animation-delay: 1s;
+
       @include phone-only {
         font-size: 1.25rem;
       }
     }
   }
 
+  @keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
 
+    80% {
+      transform: translateX(10px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes moveInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+
+    80% {
+      transform: translateX(-10px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
 }
