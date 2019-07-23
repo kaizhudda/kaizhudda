@@ -14,7 +14,7 @@ Created with:
 * Reselect (Selectors)
 * HTML5 
 * SCSS 
-* Jest/Enzyme
+* Jest/Enzyme (90%+ Test Coverage)
 * Contentful (Headless CMS)
 * Netlify (CI/CD pipelines)
 
