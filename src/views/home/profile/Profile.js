@@ -15,6 +15,33 @@ const Profile = () => {
     </>
   );
 
+  const skillsTwo = (
+    <>
+      <i className="fab fa-react" />
+      <i className="fab fa-js" />
+      <i className="fab fa-html5" />
+      <i className="fab fa-css3-alt" />
+    </>
+  );
+
+  const skillsThree = (
+    <>
+      <i className="fab fa-react" />
+      <i className="fab fa-js" />
+      <i className="fab fa-html5" />
+      <i className="fab fa-css3-alt" />
+    </>
+  );
+
+  const skillsFour = (
+    <>
+      <i className="fab fa-react" />
+      <i className="fab fa-js" />
+      <i className="fab fa-html5" />
+      <i className="fab fa-css3-alt" />
+    </>
+  );
+
   return (
     <div className="Profile row center-xs" id="experience-section">
       <Title>Work Experience</Title>
