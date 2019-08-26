@@ -1,5 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a1d22016-7cc4-43d4-909f-d462938ca3ab/deploy-status)](https://app.netlify.com/sites/kaizhudda/deploys)
+
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
 
 # Kaiz Hudda - Digital Resume
 
@@ -14,7 +15,7 @@ Created with:
 * Reselect (Selectors)
 * HTML5 
 * SCSS 
-* Jest/Enzyme
+* Jest/Enzyme (90%+ Test Coverage)
 * Contentful (Headless CMS)
 * Netlify (CI/CD pipelines)
 
