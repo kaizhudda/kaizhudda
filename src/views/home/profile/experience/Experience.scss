@@ -7,7 +7,7 @@
   align-items: center;
   text-align: left;
   padding: 48px;
-  background: white;
+  background-color: rgba(white, 0.8);
   box-shadow: 0 1.5rem 2rem rgba(#000000, 0.15);
   margin-bottom: 48px;
   width: 100%;
@@ -25,14 +25,13 @@
   }
 
   .company {
-
     .far {
       margin-right: 5px;
     }
 
     h2 {
       font-family: $font-body;
-      font-size: 1.275rem;
+      font-size: 1.5rem;
       margin-top: 0px;
       margin-bottom: 0px;
       font-weight: 700;
@@ -85,6 +84,49 @@
       @include phone-only{
         font-size: 0.925rem;
       }
+    }
+
+    .skills {
+      display: flex;
+      flex-direction: column;
+      // justify-content: center;
+      // align-items: center;
+    }
+
+    .key-tech-title {
+      font-family: $font-body;
+      font-size: 1.125rem;
+      margin-top: 40px;
+      margin-bottom: 5px;
+      font-weight: 600;
+    }
+
+    .tech-list {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+
+      .fab {
+        font-size: 2.25rem;
+        padding: 16px 16px 16px 0px;
+      }
+
+      .fa-react {
+        color: #00d8ff;
+      }
+
+      .fa-js {
+        color: #f0db4f;
+      }
+
+      .fa-html5 {
+        color: orangered;
+      }
+
+      .fa-css3-alt { 
+        color: #31a1d9;
+      }
+
     }
   }
 

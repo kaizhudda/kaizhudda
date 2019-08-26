@@ -6,6 +6,15 @@ import Experience from './experience';
 import './Profile.scss';
 
 const Profile = () => {
+  const skillsOne = (
+    <>
+      <i className="fab fa-react" />
+      <i className="fab fa-js" />
+      <i className="fab fa-html5" />
+      <i className="fab fa-css3-alt" />
+    </>
+  );
+
   return (
     <div className="Profile row center-xs" id="experience-section">
       <Title>Work Experience</Title>
@@ -17,7 +26,7 @@ const Profile = () => {
         period={'February 2019 - Present'}
         location={'Auckland, New Zealand'}
         companyLink={'https://spark.co.nz'}
-        skills={'React, Redux, ES6/7 JavaScript, Webpack 4, HTML5, CSS3/SCSS, Node.js, Jest, Enzyme, Styled components, Git, Azure DevOps'}>
+        skills={skillsOne}>
         •	Developed and maintained 5 different customer facing web journeys on Sparks corporate website
         <br />
         •	Built out Spark’s reusable React component library which heavily reduced code duplication

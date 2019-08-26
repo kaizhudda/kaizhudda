@@ -14,18 +14,20 @@ const Experience = ({ children, title, companyName, period, location, companyLin
         <p className="about">
           {children}
         </p>
-        {
-          !education &&
-          <p className="skills">
-            <strong>Key Technologies: </strong>
-            {skills}
-          </p>
-        }
-
+        
         <div className="icons">
           <span className="location"><i className="fas fa-map-marker-alt" />{location}</span>
           <a href={`${companyLink}`}><i className="fas fa-link"></i>{companyLink}</a>
         </div>
+        {
+          !education &&
+          <div className="skills">
+          <p className="key-tech-title">Key Technologies </p>
+          <div className="tech-list">
+            {skills}
+          </div>
+        </div>
+        }
       </div>
     </div>
   );
