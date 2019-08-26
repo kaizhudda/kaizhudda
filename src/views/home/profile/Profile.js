@@ -12,7 +12,7 @@ const Profile = () => {
       <Subtitle>"I am a great believer in luck, and I find the harder I work the more I have of it." - Stephen Leacock</Subtitle>
       <SecondaryTitle>Career</SecondaryTitle>
       <Experience
-        title={'Front-End React Developer (Mid-Level)'}
+        title={'Front End Developer'}
         companyName={'Spark New Zealand'}
         period={'February 2019 - Present'}
         location={'Auckland, New Zealand'}
