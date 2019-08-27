@@ -108,6 +108,10 @@
       flex-wrap: wrap;
       align-items: center;
 
+      @include phone-only {
+        justify-content: center;
+      }
+
       .icon-container {
         display: flex;
         flex-direction: column;
@@ -125,8 +129,8 @@
         }
 
         .webpack-icon {
-          height: 38px;
-          margin-bottom: 2px;
+          width: 39px;
+          margin-bottom: 1px;
         }
       }
 

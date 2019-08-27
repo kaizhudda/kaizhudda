@@ -4,8 +4,10 @@ import Subtitle from '../../../sharedComponents/subtitle';
 import SecondaryTitle from '../../../sharedComponents/secondary-title';
 import Experience from './experience';
 import reduxLogo from '../../../assets/logos/redux.png';
-import webpackLogo from '../../../assets/logos/webpack.png';
+import webpackLogo from '../../../assets/logos/webpack.svg';
 import sassLogo from '../../../assets/logos/sass.png';
+import enzymeLogo from '../../../assets/logos/enzyme.png';
+import jestLogo from '../../../assets/logos/jest-svg.svg';
 import './Profile.scss';
 
 const Profile = () => {
@@ -20,7 +22,7 @@ const Profile = () => {
         <span className="tech-title">Redux</span>
       </span>
       <span className="icon-container">
-        <img src={sassLogo} className="redux-icon" alt="Redux"/>
+        <img src={sassLogo} className="redux-icon" alt="SASS"/>
         <span className="tech-title">SASS</span>
       </span> 
       <span className="icon-container">
@@ -36,9 +38,17 @@ const Profile = () => {
         <span className="tech-title">CSS3</span>
       </span>  
       <span className="icon-container">
-        <img src={webpackLogo} className="webpack-icon" alt="Redux"/>
+        <img src={webpackLogo} className="webpack-icon" alt="Webpack"/>
         <span className="tech-title">Webpack</span>
       </span>    
+      <span className="icon-container">
+        <img src={jestLogo} className="redux-icon" alt="Jest"/>
+        <span className="tech-title">Jest</span>
+      </span>  
+      <span className="icon-container">
+        <img src={enzymeLogo} className="redux-icon" alt="Enzyme"/>
+        <span className="tech-title">Enzyme</span>
+      </span>  
       <span className="icon-container">
         <i className="fab fa-git-alt" />
         <span className="tech-title">Git</span>
