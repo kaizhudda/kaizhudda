@@ -4,6 +4,8 @@ import Subtitle from '../../../sharedComponents/subtitle';
 import SecondaryTitle from '../../../sharedComponents/secondary-title';
 import Experience from './experience';
 import reduxLogo from '../../../assets/logos/redux.png';
+import webpackLogo from '../../../assets/logos/webpack.png';
+import sassLogo from '../../../assets/logos/sass.png';
 import './Profile.scss';
 
 const Profile = () => {
@@ -18,6 +20,10 @@ const Profile = () => {
         <span className="tech-title">Redux</span>
       </span>
       <span className="icon-container">
+        <img src={sassLogo} className="redux-icon" alt="Redux"/>
+        <span className="tech-title">SASS</span>
+      </span> 
+      <span className="icon-container">
         <i className="fab fa-js" />
         <span className="tech-title">ES6</span>
       </span>
@@ -28,7 +34,15 @@ const Profile = () => {
       <span className="icon-container">
         <i className="fab fa-css3-alt" />
         <span className="tech-title">CSS3</span>
-      </span>
+      </span>  
+      <span className="icon-container">
+        <img src={webpackLogo} className="webpack-icon" alt="Redux"/>
+        <span className="tech-title">Webpack</span>
+      </span>    
+      <span className="icon-container">
+        <i className="fab fa-git-alt" />
+        <span className="tech-title">Git</span>
+      </span>  
     </>
   );
 

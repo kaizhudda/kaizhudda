@@ -8,7 +8,8 @@
   text-align: left;
   padding: 48px;
   background-color: rgba(white, 0.8);
-  box-shadow: 0 1.5rem 2rem rgba(#000000, 0.15);
+  // box-shadow: 0 1.5rem 2rem rgba(#000000, 0.15);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   margin-bottom: 48px;
   width: 100%;
   border-radius: 3px;
@@ -16,8 +17,9 @@
 
 
   &:hover {
-    transform: translateY(-0.5rem) scale(1.03);
-    box-shadow: 0 2rem 2rem rgba(#000000, 0.2);
+    transform: translateY(-0.5rem) scale(1.01);
+  box-shadow: 0 1.5rem 2rem rgba(#000000, 0.15);
+    // box-shadow: 0 2rem 2rem rgba(#000000, 0.2);
   }
 
   @include phone-only {
@@ -79,7 +81,7 @@
     p {
       line-height: 1.60;
       font-family: $font-body;
-      font-size: 0.975rem;
+      font-size: 1rem;
 
       @include phone-only{
         font-size: 0.925rem;
@@ -121,6 +123,11 @@
           height: 32px;
           margin-bottom: 8px;
         }
+
+        .webpack-icon {
+          height: 38px;
+          margin-bottom: 2px;
+        }
       }
 
       .fab {
@@ -137,13 +144,16 @@
       }
 
       .fa-html5 {
-        color: orangered;
+        color: #e34c26;
       }
 
       .fa-css3-alt { 
         color: #31a1d9;
       }
 
+      .fa-git-alt {
+        color: #f34f29;
+      }
     }
   }
 
