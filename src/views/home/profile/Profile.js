@@ -8,6 +8,8 @@ import webpackLogo from '../../../assets/logos/webpack.svg';
 import sassLogo from '../../../assets/logos/sass.png';
 import enzymeLogo from '../../../assets/logos/enzyme.png';
 import jestLogo from '../../../assets/logos/jest-svg.svg';
+import pythonLogo from '../../../assets/logos/python.svg';
+import nodeLogo from '../../../assets/logos/nodejs.png';
 import './Profile.scss';
 
 const Profile = () => {
@@ -58,10 +60,50 @@ const Profile = () => {
 
   const skillsTwo = (
     <>
-      <i className="fab fa-react" />
-      <i className="fab fa-js" />
-      <i className="fab fa-html5" />
-      <i className="fab fa-css3-alt" />
+      <span className="icon-container">
+        <i className="fab fa-react" />
+        <span className="tech-title">React</span>
+      </span>
+      <span className="icon-container">
+        <img src={reduxLogo} className="redux-icon" alt="Redux"/>
+        <span className="tech-title">Redux</span>
+      </span>
+      <span className="icon-container">
+        <img src={sassLogo} className="redux-icon" alt="SASS"/>
+        <span className="tech-title">SASS</span>
+      </span> 
+      <span className="icon-container">
+        <i className="fab fa-js" />
+        <span className="tech-title">ES6</span>
+      </span>
+      <span className="icon-container">
+        <img src={nodeLogo} className="redux-icon" alt="Nodejs"/>
+        <span className="tech-title">Node.js</span>
+      </span> 
+      <span className="icon-container">
+        <i className="fab fa-html5" />
+        <span className="tech-title">HTML5</span>
+      </span>
+      <span className="icon-container">
+        <i className="fab fa-css3-alt" />
+        <span className="tech-title">CSS3</span>
+      </span>  
+      <span className="icon-container">
+        <img src={webpackLogo} className="webpack-icon" alt="Webpack"/>
+        <span className="tech-title">Webpack</span>
+      </span>    
+      <span className="icon-container">
+        <img src={jestLogo} className="redux-icon" alt="Jest"/>
+        <span className="tech-title">Jest</span>
+      </span>  
+      <span className="icon-container">
+        <img src={enzymeLogo} className="redux-icon" alt="Enzyme"/>
+        <span className="tech-title">Enzyme</span>
+      </span>  
+      <span className="icon-container">
+        <i className="fab fa-git-alt" />
+        <span className="tech-title">Git</span>
+      </span>  
     </>
   );
 
@@ -75,11 +117,27 @@ const Profile = () => {
   );
 
   const skillsFour = (
-    <>
-      <i className="fab fa-react" />
-      <i className="fab fa-js" />
-      <i className="fab fa-html5" />
-      <i className="fab fa-css3-alt" />
+    <> 
+      <span className="icon-container">
+        <i className="fab fa-js" />
+        <span className="tech-title">JavaScript</span>
+      </span>
+      <span className="icon-container">
+        <i className="fab fa-html5" />
+        <span className="tech-title">HTML5</span>
+      </span>
+      <span className="icon-container">
+        <i className="fab fa-css3-alt" />
+        <span className="tech-title">CSS3</span>
+      </span>
+      <span className="icon-container">
+        <img src={pythonLogo} className="redux-icon" alt="Python"/>
+        <span className="tech-title">Python</span>
+      </span>  
+      <span className="icon-container">
+        <i className="fas fa-database" />
+        <span className="tech-title">Cassandra</span>
+      </span>  
     </>
   );
 
@@ -118,7 +176,7 @@ const Profile = () => {
         period={'March 2017 – February 2019 (2 years)'}
         location={'Auckland, New Zealand'}
         companyLink={'https://genesisenergy.co.nz'}
-        skills={'React, Redux, ES6/7 JavaScript, HTML5, CSS3/SCSS, Jest, Enzyme, Node.js, Git, Azure DevOps'}>
+        skills={skillsTwo}>
         •	Developed & maintained the Energy Management and Customer Self-Service web app from scratch using React, Redux, HTML5, CSS3/SASS, and JavaScript ES6
             <br />
         •	Code reviewed other developers code to ensure code quality and standards are met
@@ -176,7 +234,7 @@ const Profile = () => {
         period={'November 2014 – February 2015 (4 months)'}
         location={'Auckland, New Zealand'}
         companyLink={'https://orionhealth.com'}
-        skills={'HTML5, CSS3, Javascript, Cassandra (No SQL), Python3'}>
+        skills={skillsFour}>
         •	Converted legacy web automation test scripts using Robot Framework, Selenium & Python
           <br />
         •	Troubleshooted and optimised automation web tests and CI/CD pipelines
