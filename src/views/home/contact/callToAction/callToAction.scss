@@ -1,0 +1,43 @@
+@import '../../../../styles/button';
+@import '../../../../styles//variables';
+@import '../../../../styles/media-queries';
+
+.CallToAction {
+  padding: 80px 24px;
+  background: #F3EFE0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__box {
+    padding: 50px 20px;
+    margin-top: -140px;
+    background-color: #293347;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #293347;
+    border-radius: 6px;
+    color: white;
+    display: flex;
+    max-width: 1024px;
+  }
+
+  &__content {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    .title {
+      font-family: $font-body;
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0;
+    }
+
+    .text {
+      font-family: $font-body;
+      margin: 0;
+      font-size: 1.125rem;
+      font-weight: 300;
+    }
+  }
+}
