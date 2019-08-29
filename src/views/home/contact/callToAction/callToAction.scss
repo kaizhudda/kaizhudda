@@ -3,7 +3,7 @@
 @import '../../../../styles/media-queries';
 
 .CallToAction {
-  padding: 80px 24px;
+  padding: 40px 24px;
   background: #F3EFE0;
   display: flex;
   align-items: center;
@@ -11,13 +11,19 @@
 
   &__box {
     padding: 50px 20px;
-    margin-top: -140px;
+    margin-top: -100px;
     background-color: #293347;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px #293347;
-    border-radius: 6px;
+    border-radius: 2px;
     color: white;
     display: flex;
     max-width: 1024px;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: translateY(-0.5rem) scale(1.03);
+      box-shadow: 0 1.5rem 2rem rgba(#000000, 0.15);
+    }
   }
 
   &__content {
