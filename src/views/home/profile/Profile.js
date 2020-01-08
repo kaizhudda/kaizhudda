@@ -20,13 +20,13 @@ const Profile = () => {
         <span className="tech-title">React</span>
       </span>
       <span className="icon-container">
-        <img src={reduxLogo} className="redux-icon" alt="Redux"/>
+        <img src={reduxLogo} className="redux-icon" alt="Redux" />
         <span className="tech-title">Redux</span>
       </span>
       <span className="icon-container">
-        <img src={sassLogo} className="redux-icon" alt="SASS"/>
+        <img src={sassLogo} className="redux-icon" alt="SASS" />
         <span className="tech-title">SASS</span>
-      </span> 
+      </span>
       <span className="icon-container">
         <i className="fab fa-js" />
         <span className="tech-title">ES6</span>
@@ -38,23 +38,23 @@ const Profile = () => {
       <span className="icon-container">
         <i className="fab fa-css3-alt" />
         <span className="tech-title">CSS3</span>
-      </span>  
+      </span>
       <span className="icon-container">
-        <img src={webpackLogo} className="webpack-icon" alt="Webpack"/>
+        <img src={webpackLogo} className="webpack-icon" alt="Webpack" />
         <span className="tech-title">Webpack</span>
-      </span>    
+      </span>
       <span className="icon-container">
-        <img src={jestLogo} className="redux-icon" alt="Jest"/>
+        <img src={jestLogo} className="redux-icon" alt="Jest" />
         <span className="tech-title">Jest</span>
-      </span>  
+      </span>
       <span className="icon-container">
-        <img src={enzymeLogo} className="redux-icon" alt="Enzyme"/>
+        <img src={enzymeLogo} className="redux-icon" alt="Enzyme" />
         <span className="tech-title">Enzyme</span>
-      </span>  
+      </span>
       <span className="icon-container">
         <i className="fab fa-git-alt" />
         <span className="tech-title">Git</span>
-      </span>  
+      </span>
     </>
   );
 
@@ -65,21 +65,21 @@ const Profile = () => {
         <span className="tech-title">React</span>
       </span>
       <span className="icon-container">
-        <img src={reduxLogo} className="redux-icon" alt="Redux"/>
+        <img src={reduxLogo} className="redux-icon" alt="Redux" />
         <span className="tech-title">Redux</span>
       </span>
       <span className="icon-container">
-        <img src={sassLogo} className="redux-icon" alt="SASS"/>
+        <img src={sassLogo} className="redux-icon" alt="SASS" />
         <span className="tech-title">SASS</span>
-      </span> 
+      </span>
       <span className="icon-container">
         <i className="fab fa-js" />
         <span className="tech-title">ES6</span>
       </span>
       <span className="icon-container">
-        <img src={nodeLogo} className="redux-icon" alt="Nodejs"/>
+        <img src={nodeLogo} className="redux-icon" alt="Nodejs" />
         <span className="tech-title">Node.js</span>
-      </span> 
+      </span>
       <span className="icon-container">
         <i className="fab fa-html5" />
         <span className="tech-title">HTML5</span>
@@ -87,23 +87,23 @@ const Profile = () => {
       <span className="icon-container">
         <i className="fab fa-css3-alt" />
         <span className="tech-title">CSS3</span>
-      </span>  
+      </span>
       <span className="icon-container">
-        <img src={webpackLogo} className="webpack-icon" alt="Webpack"/>
+        <img src={webpackLogo} className="webpack-icon" alt="Webpack" />
         <span className="tech-title">Webpack</span>
-      </span>    
+      </span>
       <span className="icon-container">
-        <img src={jestLogo} className="redux-icon" alt="Jest"/>
+        <img src={jestLogo} className="redux-icon" alt="Jest" />
         <span className="tech-title">Jest</span>
-      </span>  
+      </span>
       <span className="icon-container">
-        <img src={enzymeLogo} className="redux-icon" alt="Enzyme"/>
+        <img src={enzymeLogo} className="redux-icon" alt="Enzyme" />
         <span className="tech-title">Enzyme</span>
-      </span>  
+      </span>
       <span className="icon-container">
         <i className="fab fa-git-alt" />
         <span className="tech-title">Git</span>
-      </span>  
+      </span>
     </>
   );
 
@@ -117,7 +117,7 @@ const Profile = () => {
   );
 
   const skillsFour = (
-    <> 
+    <>
       <span className="icon-container">
         <i className="fab fa-js" />
         <span className="tech-title">JavaScript</span>
@@ -131,13 +131,13 @@ const Profile = () => {
         <span className="tech-title">CSS3</span>
       </span>
       <span className="icon-container">
-        <img src={pythonLogo} className="redux-icon" alt="Python"/>
+        <img src={pythonLogo} className="redux-icon" alt="Python" />
         <span className="tech-title">Python</span>
-      </span>  
+      </span>
       <span className="icon-container">
         <i className="fas fa-database" />
         <span className="tech-title">Cassandra</span>
-      </span>  
+      </span>
     </>
   );
 
@@ -153,21 +153,21 @@ const Profile = () => {
         location={'Auckland, New Zealand'}
         companyLink={'https://spark.co.nz'}
         skills={skillsOne}>
-        •	Developed and maintained 5 different customer facing web journeys on Sparks corporate website
+        •	Built various customer facing web journeys from scratch including Broadband, Billing and Shop journeys.
         <br />
         •	Built out Spark’s reusable React component library which heavily reduced code duplication
         <br />
         •	Wrote and refactored unit tests to improve the reliability of the code base, using Jest and Enzyme
         <br />
-        •	Defined and implemented best practices and coding standards for the organization to deliver high quality code
+        •	Defined and implemented best practices and coding standards for the organization to deliver high quality code (reducing technical debt)
         <br />
         •	Worked closely with UI/UX designers to ensure design is translated correctly
        <br />
         •	Worked with AEM developers to seamlessly integrate React.js and add content authoring across journey’s
         <br />
-        •	Mentored developers / Pair programming
+        •	Mentored junior and graduate developers / Pair programming
         <br />
-        •	Managed 2 weekly sprints for the frontend team with Azure DevOps
+        •	Managed a small team of Front-End Developers & lead agile ceremonies including, backlog grooming, planning and retro.
         </Experience>
 
       <Experience
@@ -177,7 +177,7 @@ const Profile = () => {
         location={'Auckland, New Zealand'}
         companyLink={'https://genesisenergy.co.nz'}
         skills={skillsTwo}>
-        •	Developed & maintained the Energy Management and Customer Self-Service web app from scratch using React, Redux, HTML5, CSS3/SASS, and JavaScript ES6
+        •	Developed & maintained the Energy Management and Customer Self-Service web app from scratch that is used by over 100,000 customers
             <br />
         •	Code reviewed other developers code to ensure code quality and standards are met
             <br />
